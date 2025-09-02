@@ -57,6 +57,4 @@ Processamento concluído!
 Relatório gerado em: .../export/relatorio.txt
 ```
 
-## 👥 Créditos
-Projeto desenvolvido para o desafio acadêmico (CP1 - 3ES - 2º semestre).
 
