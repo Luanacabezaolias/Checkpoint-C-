@@ -1,14 +1,15 @@
+# ProcessadorTxtAsync
 
 Aplicação Console em **C# (.NET 8)** para processamento assíncrono de arquivos de texto.
 
- Funcionalidades
+## 📌 Funcionalidades
 - Solicita ao usuário um diretório de entrada.
 - Localiza todos os arquivos `.txt` no diretório.
 - Processa cada arquivo de forma **assíncrona** com `async/await`.
 - Conta **linhas** e **palavras** em cada arquivo.
 - Gera um relatório consolidado em `./export/relatorio.txt`.
 
-Estrutura do Projeto
+## 📂 Estrutura do Projeto
 ```
 ProcessadorTxtAsync/
 └── src/
@@ -16,30 +17,30 @@ ProcessadorTxtAsync/
     ├── ProcessadorTxtAsync.csproj
 ```
 
-Como Executar
+## ▶️ Como Executar
 
-1. Clonar ou extrair o projeto
-   bash
+1. **Clonar ou extrair o projeto**
+   ```bash
    unzip ProcessadorTxtAsync.zip
    cd ProcessadorTxtAsync/src
-   
+   ```
 
-2. Compilar e executar
-   bash
+2. **Compilar e executar**
+   ```bash
    dotnet run
-   
+   ```
 
-3. Interação
+3. **Interação**
    - O programa pedirá um caminho de diretório.
    - Listará os arquivos `.txt` encontrados.
    - Processará cada arquivo de forma assíncrona, mostrando progresso.
    - Criará o relatório em:
      ```
      ./export/relatorio.txt
-     
+     ```
 
- Exemplo de Saída
-
+## 📄 Exemplo de Saída
+```
 === Processador de Arquivos de Texto ===
 Informe o diretório onde estão os arquivos .txt: C:\arquivos
 
@@ -54,6 +55,8 @@ Processando arquivo teste2.txt...
 
 Processamento concluído!
 Relatório gerado em: .../export/relatorio.txt
+```
 
-
+## 👥 Créditos
+Projeto desenvolvido para o desafio acadêmico (CP1 - 3ES - 2º semestre).
 
